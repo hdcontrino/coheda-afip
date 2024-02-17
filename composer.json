@@ -1,0 +1,20 @@
+{
+    "name": "coheda/coheda-afip",
+    "description": "Emitir facturas a través de la API de AFIP",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coheda\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hdcontrino/coheda-afip.git"
+        }
+    ]
+}
